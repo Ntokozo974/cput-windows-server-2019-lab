@@ -1,0 +1,13 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+
+# Large VM export files (don't commit these to GitHub)
+*.ova
+*.vmdk
+*.vdi
+*.iso

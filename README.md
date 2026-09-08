@@ -1,7 +1,7 @@
 # Group 6 — Windows Server 2019 Infrastructure Lab
 
 **Institution:** Cape Peninsula University of Technology (CPUT)
-**Module:** [OPS260s]
+**Module:** OPS260s
 **Team:** Group 6
 **Members:**
 - Ntokozo Tyanase — 250070480
@@ -24,7 +24,7 @@ CPUT is expanding its operations and requires a secure, centrally-managed IT
 infrastructure. This lab simulates that environment using a virtualised Windows
 Server 2019 deployment, configured and tested end-to-end.
 
-**Hypervisor used:** [VirtualBox / VMware Workstation / Hyper-V — state which one]
+**Hypervisor used:** VirtualBox
 
 ---
 

@@ -1,7 +1,7 @@
 # Group 6 — Windows Server 2019 Infrastructure Lab
 
 **Institution:** Cape Peninsula University of Technology (CPUT)
-**Module:** [Insert module name / code]
+**Module:** [OPS260s]
 **Team:** Group 6
 **Members:**
 - Ntokozo Tyanase — 250070480

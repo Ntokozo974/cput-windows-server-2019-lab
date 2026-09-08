@@ -73,7 +73,7 @@ Mark each ⬜ as ✅ once that section's screenshots + write-up are complete.
 ## 🛠 Tools Used
 
 - Windows Server 2019 (Desktop Experience)
-- [Hypervisor name]
+- Oracle VM VirtualBox
 - Windows 10/11 client VM for testing
 - Command-line tools: `ipconfig`, `nslookup`, `gpresult`, `gpupdate`
 

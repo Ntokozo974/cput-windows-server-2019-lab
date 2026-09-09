@@ -1,7 +1,7 @@
 # Group 6 — Windows Server 2019 Infrastructure Lab
 
 **Institution:** Cape Peninsula University of Technology (CPUT)
-**Module:** [Insert module name / code]
+**Module:** OPS260s
 **Team:** Group 6
 **Members:**
 - Ntokozo Tyanase — 250070480
@@ -24,7 +24,7 @@ CPUT is expanding its operations and requires a secure, centrally-managed IT
 infrastructure. This lab simulates that environment using a virtualised Windows
 Server 2019 deployment, configured and tested end-to-end.
 
-**Hypervisor used:** [VirtualBox / VMware Workstation / Hyper-V — state which one]
+**Hypervisor used:** VirtualBox
 
 ---
 
@@ -73,7 +73,7 @@ Mark each ⬜ as ✅ once that section's screenshots + write-up are complete.
 ## 🛠 Tools Used
 
 - Windows Server 2019 (Desktop Experience)
-- [Hypervisor name]
+- Oracle VM VirtualBox
 - Windows 10/11 client VM for testing
 - Command-line tools: `ipconfig`, `nslookup`, `gpresult`, `gpupdate`
 

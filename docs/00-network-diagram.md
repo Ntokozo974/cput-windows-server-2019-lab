@@ -32,4 +32,4 @@ Internet / Host Machine
 - **NetBIOS name:** GROUP6
 - **Forest/Domain functional level:** Windows Server 2016 (or as selected)
 
-> Replace `X` throughout this document with your actual group number.
+

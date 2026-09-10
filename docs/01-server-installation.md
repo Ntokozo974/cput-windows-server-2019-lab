@@ -46,18 +46,15 @@ assign a static IP address, and confirm basic network connectivity.
 
 ## Notes / Issues Encountered
 
-* After joining the client VM to the same VirtualBox Internal Network as the
+After joining the client VM to the same VirtualBox Internal Network as the
+server, ping tests between the two machines failed intermittently with
+"Destination host unreachable" and packet loss, despite correct IP/subnet
+configuration on both sides.
 
-&#x20;  server, ping tests between the two machines failed intermittently with
+![Troubleshooting - ping and arp failure](../screenshots/01-server-installation/11-troubleshooting-ping-arp.png)
 
-&#x20; "Destination host unreachable" and packet loss, despite correct IP/subnet
+**Resolution:** Switched both VMs' network adapters from "Internal Network"
+to "NAT Network" mode in VirtualBox, which resolved the connectivity issue.
 
-&#x20;  configuration on both sides.
-   !\[Troubleshooting - ping and arp failure](../screenshots/01-server-installation/11-troubleshooting-ping arp.png)
-
-* \*\*Resolution:\*\* 
-
-&#x20;     Switched both VMs' network adapters from "Internal Network" to "NAT Network" mode in VirtualBox, which resolved the connectivity issue.
-
-&#x20;    !\[Ping success after switching to NAT Network](../screenshots/01-server-installation/12-ping-success-nat-network.png)
+![Ping success after switching to NAT Network](../screenshots/01-server-installation/12-ping-success-nat-network.png)
 

@@ -1,6 +1,6 @@
 # 6. Remote Access Configuration (10 marks)
 
-**Owner:** Ntokozo Tyanase
+**Owner:** Mahlogonolo Mkhawane
 **Status:** ✅ Done
 
 ## Objective

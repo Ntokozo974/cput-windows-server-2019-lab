@@ -123,12 +123,12 @@ operation. Full details are documented in
 
 | Member | Student Number | Section(s) Owned |
 |---|---|---|
-| Ntokozo Tyanase | 250070480 | [TBD] |
-| Kungawo Mpengesi | 250078732 | [TBD] |
-| Lethabo Ramatlhape | 251511588 | [TBD] |
-| Thapelo Vundla | 231248822 | [TBD] |
-| Mahlogonolo Mkhawane | 251565998 | [TBD] |
-| Amogelang Tshutse | 250336405 | [TBD] |
+| Ntokozo Tyanase | 250070480 | Server Installation, Active Directory Domain Services |
+| Kungawo Mpengesi | 250078732 | DNS Configuration |
+| Lethabo Ramatlhape | 251511588 | DHCP Configuration |
+| Thapelo Vundla | 231248822 | Group Policy Hardening |
+| Mahlogonolo Mkhawane | 251565998 | Remote Access (VPN/RRAS) |
+| Amogelang Tshutse | 250336405 | Certificate Services (AD CS) |
 
 ---
 

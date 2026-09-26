@@ -1,6 +1,6 @@
 # 3. DNS Configuration (20 marks)
 
-**Owner:** Ntokozo Tyanase
+**Owner:** Kungawo Mpengesi
 **Status:** ✅ Done
 
 ## Objective

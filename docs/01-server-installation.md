@@ -51,7 +51,19 @@ configuration on both sides.
 
 ![Troubleshooting - ping and arp failure](../screenshots/01-server-installation/11-troubleshooting-ping-arp.png)
 
+Investigation traced this to Windows 11's Hyper-V/Virtualization-Based
+Security (VBS) running on the host machine, competing with VirtualBox for the
+CPU's virtualization extensions (VT-x). Software-level fixes (disabling
+Hyper-V, Virtual Machine Platform, and Memory Integrity/Core Isolation) did
+not fully resolve it — `Get-ComputerInfo -Property "HyperVisorPresent"` still
+returned `True`. The root cause turned out to be firmware-level: the host's
+BIOS had **Kernel DMA Protection** enabled, which locked the VT-x/VT-d
+toggles. Disabling Kernel DMA Protection in BIOS allowed VT-x and VT-d to be
+enabled directly at the firmware level.
+
 **Resolution:** Switched both VMs' network adapters from "Internal Network"
-to "NAT Network" mode in VirtualBox, which resolved the connectivity issue.
+to "NAT Network" mode in VirtualBox, and resolved the underlying host
+performance issue via the BIOS-level fix above. Together, these changes
+resolved the connectivity issue and significantly improved VM responsiveness.
 
 ![Ping success after switching to NAT Network](../screenshots/01-server-installation/12-ping-success-nat-network.png)

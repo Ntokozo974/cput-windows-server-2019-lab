@@ -1,6 +1,6 @@
 # 7. Active Directory Certificate Services (10 marks)
 
-**Owner:** Ntokozo Tyanase
+**Owner:** Amogelang Tshutse
 **Status:** ✅ Done
 
 ## Objective

@@ -1,6 +1,6 @@
 # 5. Group Policy Configuration (10 marks)
 
-**Owner:** Ntokozo Tyanase
+**Owner:** Thapelo Vundla
 **Status:** ✅ Done
 
 ## Objective
